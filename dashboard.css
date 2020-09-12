@@ -1,0 +1,65 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+.no-border{
+  border: none !important;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.sidebar-nav .active {
+  color: #f36774 !important;
+  background-color: rgb(248, 249, 250) !important;
+  border-radius:5px;
+}
+
+#progress-bar{
+  width: 12rem;
+  height: 0.5rem;
+}
+
+#myDiv {
+  transform: rotateZ(270deg);
+}
+
+#count-btn1{
+  width:100% ;
+  border-radius: 16px 16px 16px 16px;
+  background-color:#4e4cac;
+}
+#count-btn2{
+  width:100% ;
+  border-radius: 16px 16px 16px 16px;
+  background-color:#9698d5;
+}
+#count-btn3{
+  width:100% ;
+  border-radius: 16px 16px 16px 16px;
+  background-color:#ff808b;
+}
+
+
+.action-btn {
+  display: flex;
+}
+.action-btn .fa {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.action-btn .fa-trash {
+  border: 1px solid #dc5151;
+  color: #dc5151;
+  padding: 5px;
+  border-radius: 4px;
+}
+.action-btn .fa-edit {
+  border: 1px solid #51c956;
+  color: #51c956;
+  padding: 5px;
+  border-radius: 4px;
+}
+.action-btn .fa-eye {
+  border: 1px solid #2572bc;
+  color: #2572bc;
+  padding: 5px;
+  border-radius: 4px;
+}
+
